@@ -95,6 +95,13 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
+"@sveltejs/adapter-vercel@next":
+  version "1.0.0-next.27"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.27.tgz#0e8449b5550136c09976a51dc971fb481d06c25c"
+  integrity sha512-KiGDJXgjkj3MJvmQLXpE7pfQnN7dVx8pPgqcrFp8yziFrLMrvluklKmNqNei6JivQn5JVYxLojRgHpik1fdIOw==
+  dependencies:
+    esbuild "^0.12.5"
+
 "@sveltejs/kit@next":
   version "1.0.0-next.146"
   resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.146.tgz#bb0a97a86afbf644b7c389b68a7aba885429fd55"
@@ -752,6 +759,11 @@ error-ex@^1.3.1:
   integrity sha512-7dFHNmqeFSEt2ZBsCriorKnn3Z2pj+fd9kmI6QoWw4//DL+icEBfc0U7qJCisqrTsKTjw4fNFy2pW9OqStD84g==
   dependencies:
     is-arrayish "^0.2.1"
+
+esbuild@^0.12.5:
+  version "0.12.21"
+  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.12.21.tgz#7ff32a9ac73ce4310f9cb61ea4c3da9756570d46"
+  integrity sha512-7hyXbU3g94aREufI/5nls7Xcc+RGQeZWZApm6hoBaFvt2BPtpT4TjFMQ9Tb1jU8XyBGz00ShmiyflCogphMHFQ==
 
 esbuild@^0.12.8:
   version "0.12.19"

@@ -1,6 +1,7 @@
 import preprocess from 'svelte-preprocess';
 // import svg from '@poppanator/sveltekit-svg';
 import svelteSVG from 'vite-plugin-svelte-svg';
+import vercel from '@sveltejs/adapter-vercel';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -21,7 +22,8 @@ const config = {
 					svgoConfig: {} // See https://github.com/svg/svgo#configuration
 				})
 			]
-		}
+		},
+		adapter: vercel()
 	}
 };
 
