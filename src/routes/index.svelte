@@ -8,8 +8,12 @@
 	onMount(() => (animate = true));
 </script>
 
+<svelte:head>
+	<title>Ivan Wang</title>
+</svelte:head>
+
 <section class="col-span-12 h-full flex flex-col justify-center items-center">
-	<h1 class="title text-4xl text-blueGray-700 mb-8">Ivan Wang</h1>
+	<h1 class="title text-4xl text-blueGray-800 mb-8">Ivan Wang</h1>
 	<ul class="grid grid-flow-row gap-y-4 tracking-widest sm:grid-flow-col sm:gap-x-16">
 		<li class="flex justify-center">
 			<Link path="/about" label="about" />

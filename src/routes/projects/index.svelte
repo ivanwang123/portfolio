@@ -2,9 +2,26 @@
 	import Project from '$lib/Project.svelte';
 </script>
 
-<div class="col-start-1 col-end-13 px-4 sm:col-start-2 sm:col-end-12 sm:px-0">
-	<section class="grid grid-cols-2 gap-y-2 gap-x-6 mb-8 md:gap-y-20">
-		<Project />
-		<Project />
-	</section>
+<svelte:head>
+	<title>Projects | Ivan Wang</title>
+</svelte:head>
+
+<div class="flex flex-col max-w-3xl px-4">
+	<Project
+		title="Roadmap"
+		link="https://roadmap.vercel.app"
+		tags={['React', 'Next.js', 'Go', 'GraphQL', 'PostgreSQL']}
+		description="Large scale application that uses clean architecture on the backend. Utilizes server side rendering."
+	/>
+	<Project
+		title="Roadmap"
+		link="https://roadmap.vercel.app"
+		tags={['React', 'Next.js', 'Go', 'GraphQL', 'PostgreSQL']}
+		description="Large scale application that uses clean architecture on the backend. Utilizes server side rendering."
+	/>
 </div>
+<!-- Roadmap -->
+<!-- https://roadmap.vercel.app -->
+<!-- ['React', 'Next.js', 'Go', 'GraphQL', 'PostgreSQL'] -->
+<!-- Large scale application that uses clean architecture on the backend. Utilizes server side
+		rendering. -->

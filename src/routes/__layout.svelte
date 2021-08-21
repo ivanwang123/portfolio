@@ -24,6 +24,6 @@
 	<Navbar />
 {/if}
 
-<main class="grid grid-cols-12 w-full h-full">
+<main class="flex flex-col items-center h-full">
 	<slot />
 </main>
