@@ -6,7 +6,7 @@
 	<title>About | Ivan Wang</title>
 </svelte:head>
 
-<div class="max-w-3xl p-4 sm:px-0">
+<div class="max-w-3xl p-4 pb-8">
 	<img src="res/profile-pic.jpg" alt="profile pic" width={200} height={200} />
 	<About
 		title="Hello"

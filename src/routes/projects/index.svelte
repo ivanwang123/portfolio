@@ -6,7 +6,7 @@
 	<title>Projects | Ivan Wang</title>
 </svelte:head>
 
-<div class="flex flex-col max-w-3xl px-4">
+<div class="flex flex-col max-w-3xl p-4">
 	<Project
 		title="Roadmap"
 		link="https://roadmap.vercel.app"

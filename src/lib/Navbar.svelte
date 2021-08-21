@@ -37,7 +37,7 @@
 		</h3>
 		<div class="ml-auto sm:hidden">
 			<button type="button" on:click={toggleMenu} bind:this={menuBtn}>
-				<Hamburger class="w-5 h-5 pointer-events-none" />
+				<Hamburger class="w-6 h-6 fill-current text-blueGray-800 pointer-events-none" />
 			</button>
 			{#if showMenu}
 				<div class="fixed inset-0 h-full flex flex-col items-center bg-white" transition:slide>
